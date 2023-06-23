@@ -1,0 +1,132 @@
+# Translation of Plugins - Zippy - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Zippy - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-30 17:31:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Zippy - Development (trunk)\n"
+
+#: ZippyCore.php:1327
+msgid "Import meta-data, custom fields"
+msgstr "Importar metadatos, campos personalizados"
+
+#: ZippyCore.php:1326
+msgid "Import media, attachments"
+msgstr "Importar medios, adjuntos"
+
+#: ZippyCore.php:1322
+msgid "Search & override articles that have the same name or slug."
+msgstr "Buscar y sobrescribir artículos que tengan el mismo nombre o slug."
+
+#: ZippyCore.php:1321
+msgid "Change post type to:"
+msgstr "Cambiar tipo de contenido a:"
+
+#: ZippyCore.php:1319
+msgid "Select zip archive to extract"
+msgstr "Selecciona un archivo zip para extraer"
+
+#: ZippyCore.php:1303
+msgid "Auto-detect"
+msgstr "Detección automática"
+
+#: ZippyCore.php:1250 ZippyCore.php:1270
+msgid "Extract (Zippy)"
+msgstr "Extraer (Zippy)"
+
+#: ZippyCore.php:138
+msgid "Please select at least one post to archive"
+msgstr "Por favor, selecciona al menos una entrada para archivar"
+
+#: ZippyCore.php:54 ZippyCore.php:71
+msgid "Archive (Zippy)"
+msgstr "Archivar (Zippy)"
+
+#: ZippyCore.php:1266
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes suficientes permisos para acceder a esta página."
+
+#: ZippyCore.php:841
+msgid "Can not read the archive content"
+msgstr "No se ha podido leer el contenido del archivo"
+
+#: ZippyCore.php:826
+msgid "Can not open the archive. Error code: %s"
+msgstr "No se ha podido abrir el archivo. Código de error: %s"
+
+#: ZippyCore.php:316
+msgid "Can not close the archive"
+msgstr "No se ha podido cerrar el archivo"
+
+#: ZippyCore.php:286
+msgid "Can not create the archive. Error code: %s"
+msgstr "No se ha podido crear el archivo. Código de error: %s"
+
+#. Author URI of the plugin
+msgid "http://gesundheit-bewegt.com/"
+msgstr "http://gesundheit-bewegt.com/"
+
+#. Author of the plugin
+msgid "Gesundheit Bewegt GmbH"
+msgstr "Gesundheit Bewegt GmbH"
+
+#: ZippyCore.php:174
+msgid "Please select an archive to extract articles."
+msgstr "Por favor, selecciona un archivo para extraer los artículos."
+
+#. Description of the plugin
+msgid "Incredibly easy solution to archive pages and posts as zip file and unpack them back even on the other website!"
+msgstr "¡Una solución increíblemente fácil para archivar páginas y entradas en archivos zip y descomprimirlos incluso en otra web!"
+
+#. Plugin Name of the plugin
+msgid "Zippy"
+msgstr "Zippy"
+
+#: ZippyCore.php:1329
+msgid "Import"
+msgstr "Importar"
+
+#: ZippyCore.php:978
+msgid "Can not unzip the post \"%s\""
+msgstr "No se puede descomprimir la entrada «%s»"
+
+#: ZippyCore.php:868
+msgid "Post type \"%s\" not found for the post \"%s\""
+msgstr "El tipo de contenido «%s» no se ha encontrado para la entrada «%s»"
+
+#: ZippyCore.php:851
+msgid "Incorrect data in the file"
+msgstr "Datos incorrectos en el archivo"
+
+#: ZippyCore.php:845
+msgid "File is empty"
+msgstr "El archivo está vacío"
+
+#: ZippyCore.php:818
+msgid "File not exists"
+msgstr "El archivo no existe"
+
+#: ZippyCore.php:265 ZippyCore.php:290
+msgid "Can not create the archive"
+msgstr "No se ha podido crear el archivo"
+
+#: ZippyCore.php:256 ZippyCore.php:276
+msgid "Can not read the post with the ID %d. Process terminated."
+msgstr "No se ha podido leer la entrada con el ID %d. Proceso terminado."
+
+#: ZippyCore.php:196
+msgid "Article \"%s\" has been unzipped!"
+msgstr "¡El artículo «%s» se ha descomprimido!"
+
+#: ZippyCore.php:144 ZippyCore.php:246
+msgid "Zip functionality is not available on the server!"
+msgstr "¡La funcionalidad Zip no está disponible en el servidor!"
+
+#: ZippyCore.php:179
+msgid "Can not unzip file %s: not zip archive."
+msgstr "No se ha podido descomprimir el archivo %s: no es un archivo zip."

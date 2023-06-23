@@ -1,0 +1,42 @@
+2023-06-22T09:54:15+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\xampp\htdocs\prueba\wp-content\plugins\duplicator\ctrls\ctrl.package.php:194
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wp-content\plugins\duplicator\ctrls\ctrl.package.php(194): implode(',', 'SQL file size t...')
+#1 C:\xampp\htdocs\prueba\wp-includes\class-wp-hook.php(308): duplicator_duparchive_package_build('')
+#2 C:\xampp\htdocs\prueba\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\prueba\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\prueba\wp-admin\admin-ajax.php(188): do_action('wp_ajax_duplica...')
+#5 {main}
+  thrown en C:\xampp\htdocs\prueba\wp-content\plugins\duplicator\ctrls\ctrl.package.php en la línea 194
+
+2023-06-22T14:44:17+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\xampp\htdocs\prueba\wp-content\plugins\duplicator\ctrls\ctrl.package.php:194
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wp-content\plugins\duplicator\ctrls\ctrl.package.php(194): implode(',', 'SQL file size t...')
+#1 C:\xampp\htdocs\prueba\wp-includes\class-wp-hook.php(308): duplicator_duparchive_package_build('')
+#2 C:\xampp\htdocs\prueba\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\prueba\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\prueba\wp-admin\admin-ajax.php(188): do_action('wp_ajax_duplica...')
+#5 {main}
+  thrown en C:\xampp\htdocs\prueba\wp-content\plugins\duplicator\ctrls\ctrl.package.php en la línea 194
+
+2023-06-22T22:05:22+00:00 CRITICAL Uncaught Error: Undefined constant "‘WP_ALLOW_MULTISITE’" in C:\xampp\htdocs\prueba\wp-config.php:102
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wp-load.php(50): require_once()
+#1 C:\xampp\htdocs\prueba\wp-cron.php(46): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown en C:\xampp\htdocs\prueba\wp-config.php en la línea 102
+
+2023-06-22T22:05:22+00:00 CRITICAL Uncaught Error: Undefined constant "‘WP_ALLOW_MULTISITE’" in C:\xampp\htdocs\prueba\wp-config.php:102
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wp-load.php(50): require_once()
+#1 C:\xampp\htdocs\prueba\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba\wp-admin\about.php(10): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\prueba\wp-config.php en la línea 102
+
+2023-06-22T22:05:33+00:00 CRITICAL Uncaught Error: Undefined constant "‘WP_ALLOW_MULTISITE’" in C:\xampp\htdocs\prueba\wp-config.php:102
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wp-load.php(50): require_once()
+#1 C:\xampp\htdocs\prueba\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown en C:\xampp\htdocs\prueba\wp-config.php en la línea 102
+
